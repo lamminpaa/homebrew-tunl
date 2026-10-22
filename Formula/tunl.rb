@@ -1,8 +1,8 @@
 class Tunl < Formula
   desc "Command-line and MCP control for the Tunl WireGuard app for macOS"
   homepage "https://tunl.works"
-  url "https://github.com/lamminpaa/homebrew-tunl/archive/refs/tags/cli-v0.0.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/lamminpaa/homebrew-tunl/archive/refs/tags/cli-v0.1.0.tar.gz"
+  sha256 "740c584643bb39a887f30ce6a7f8967e565bec219b1ac9243d461ceada14b83d"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
