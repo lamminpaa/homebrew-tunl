@@ -9,5 +9,7 @@ brew install lamminpaa/tunl/tunl
 claude mcp add tunl -- tunl mcp   # optional: use it from Claude Code
 ```
 
-See [cli/README.md](cli/README.md) for the commands. The source in `cli/` is
-published here from the app's repository by its release script.
+`tunl status`, `events`, `connect`, `disconnect` and `repair` each take
+`--json`; `tunl mcp` serves them to AI agents over stdio. Each release's
+source is attached to its GitHub release, built from the app's repository by
+its release script.
