@@ -1,0 +1,39 @@
+{
+  "appVersion" : "1.0.0",
+  "schema" : 1,
+  "tunnels" : [
+    {
+      "autoReconnect" : true,
+      "health" : "noTraffic",
+      "lastHandshakeSecondsAgo" : 190,
+      "latencyMs" : 23.5,
+      "name" : "Home \"lab\"",
+      "receivedBytes" : 1048576,
+      "recentEvents" : [
+        {
+          "at" : "2026-10-22T08:01:00Z",
+          "kind" : "noTraffic"
+        },
+        {
+          "at" : "2026-10-22T08:00:00Z",
+          "detail" : "attempt 1 of 4",
+          "kind" : "repairStarted"
+        }
+      ],
+      "sentBytes" : 2048,
+      "status" : "connected"
+    },
+    {
+      "autoReconnect" : false,
+      "name" : "Office",
+      "recentEvents" : [
+        {
+          "at" : "2026-10-21T17:00:00Z",
+          "kind" : "disconnected"
+        }
+      ],
+      "status" : "disconnected"
+    }
+  ],
+  "updatedAt" : "2026-10-22T08:01:05Z"
+}
